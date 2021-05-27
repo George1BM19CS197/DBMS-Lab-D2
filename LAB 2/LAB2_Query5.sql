@@ -1,5 +1,4 @@
 use Bank;
-
 delete from BankAccount 
 where branch_name in(
 select branch_name 
